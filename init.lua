@@ -189,6 +189,8 @@ vim.keymap.set('n', '<C-Left>', '<C-w><Left>', { desc = 'Move focus to the left 
 vim.keymap.set('n', '<C-Right>', '<C-w><Right>', { desc = 'Move focus to the right window' })
 vim.keymap.set('n', '<C-Down>', '<C-w><Down>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-Up>', '<C-w><Up>', { desc = 'Move focus to the upper window' })
+vim.keymap.set('n', '<Tab>', ':bnext<cr>', { desc = 'Go to next buffer' })
+vim.keymap.set('n', '<S-Tab>', ':bprevious<cr>', { desc = 'Go to previous buffer' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
